@@ -1,0 +1,6 @@
+{
+  "name": "WealthFlow — Advanced SIP & SWP Calculator",
+  "description": "Advanced SIP, SWP, and Goal-based financial planning calculator with step-up investments, corpus depletion modeling, return scenarios, and sensitivity analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

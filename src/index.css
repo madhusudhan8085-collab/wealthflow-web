@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@media print {
+  header, #theme-toggle-btn, #share-plan-btn, #print-export-btn, #toggle-currency-btn, nav {
+    display: none !important;
+  }
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  .shadow-xs, .shadow-md, .shadow-sm {
+    box-shadow: none !important;
+  }
+}
